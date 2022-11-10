@@ -8,7 +8,7 @@ namespace ConsoleApplication11
 {
     class Program
     {
-        static void PrintReqursive(int number, int currentnumber = 0)
+        static void PrintReqursive(int number, int currentnumber = 15)
         {
             if (currentnumber >= number) return;
             Console.WriteLine(currentnumber);
@@ -17,7 +17,7 @@ namespace ConsoleApplication11
         
         static void Main()
         {
-            PrintReqursive(22);
+            PrintReqursive(26);
             Console.ReadKey();
         }
     }
